@@ -1,0 +1,67 @@
+.border{
+width:500px;
+height:600px;
+background-color:#2F3C7E;
+margin:0 auto;
+padding-top:10px;
+overflow:hidden;
+padding:30px; 
+filter:blur(3px);
+}
+
+.frame{
+  width:550px;
+  height:650px;
+  background-color:rgb(23, 21, 21);
+  margin:0 auto;
+/*  padding-top:50px;
+  padding-bottom:27px;
+  padding:top right bottom left
+  padding:50px 75px 50px 75px;*/
+  padding:60px;
+}
+
+.canvas{
+background-color:white;
+width:450px;
+height:520px;
+margin:40px auto;
+padding-top:20px;
+padding-bottom:10px;
+}
+
+.one{
+  width:300px;
+  background-color:palevioletred;
+  height:150px;
+  margin:10px auto;
+  filter:blur(3px);
+  border-radius:10px;
+  transform:rotate(-0.6deg);
+  box-shadow:2px 2px 2px 2px rgb(207, 38, 94);
+  /*horizontal offset means having the shadow effect on the horizontal plane
+  positive means shadow effect towards right,negative value mean shadow effect towards left*/
+  /*vertical offset means having the shadow effect on the vertical plane 
+  positive means shadow effect towards down,negative value mean shadow efffect towards up*/
+}
+
+.two{
+  width:400px;
+  background-color:rgb(34, 205, 125);
+  height:150px;
+  margin:20px auto;
+  filter:blur(2px);
+  transform:rotate(0.4deg);
+  box-shadow:2px 2px 2px 2px rgb(12, 218, 122);
+  border-radius:10px 20px;
+  /*border radius has two values top right and bottom left*/
+}
+
+.three{
+  width:400px;
+  background-color: rgb(220, 235, 5);
+  height:150px;
+  margin:20px auto;
+  filter:blur(4px);
+  border-radius:30px 25px 60px 12px;
+}

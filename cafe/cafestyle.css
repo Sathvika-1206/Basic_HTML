@@ -1,0 +1,90 @@
+/*in css
+body(selector){
+ background-img(property):url()=>value
+}*/
+
+.menu{
+    background-color:burlywood;
+    /*width=>usually comes in percentage with respect to parent
+       mainly used in responsive websites to be used in different websites*/
+       /*percentage*/
+    width:80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+/*.class_name to differentiate from other selectors*/
+
+body{
+    background-image:url(https://images.unsplash.com/photo-1580933073521-dc49ac0d4e6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlJTIwYmVhbnN8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+    font-family: calibri;
+    /*padding is the property which creates space around the content of an element*/
+    padding:20px;
+    /* align-items: center; */
+    /*padding of 20 pixels on all sides*/
+    /*pixel is the fundamental unit of measurement in digital imaging*/
+}
+/*To have all the elements as center we can combine and make them as center*/
+h1,h2,p{
+    text-align:center;
+}
+
+h1{
+    font-size:45px;
+    /*margin is used to control the spacing between elements and its neighbouring elements vertically in px*/
+    /*margin-top above*/
+    margin-top:0;
+    /*margin-bottom below*/
+    margin-bottom:10px;
+}
+
+h2{
+    font-size:30px;
+    margin-top:10px;
+}
+.established{
+    font-style:italic;
+    font-size:24px;
+}
+
+hr{
+  background-color:brown;
+  height:2px;
+  border-color:brown;
+}
+
+.container{
+    /*flex means ability of items to dyanmically grow or shrink to fill the available space*/
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    
+}
+img {
+    width: 50px;
+    height: 40px;
+    margin-top:-15px;
+}
+
+.item p {
+    display: flex; /* Use flexbox to control layout */
+    justify-content: space-between; /* Put space between the elements */
+    align-items: center; /* Center vertically within the flex container */
+    font-size:26px;
+}
+
+
+.flavor{
+   text-align:right;
+   width:75%;
+   margin-left:20px;
+   
+}
+
+.price{
+    text-align:left;
+    width:25%;
+    margin-right:20px;
+}
